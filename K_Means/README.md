@@ -6,6 +6,24 @@ This project implements a K-Means clustering pipeline using Scikit-Learn to segm
 mall customers based on Age, Annual Income, and Spending Score. The trained model
 is then tested on real-world custom survey data collected from 10 individuals.
 
+## Folder Structure
+```
+220141-kmeans-clustering/
+├── dataset/
+│   ├── Mall_Customers.csv
+│   └── custom_survey_data.csv
+├── model/
+│   ├── 220141.pkl
+│   └── scaler.pkl
+├── Screenshots/
+│   ├── elbow_plot.png
+│   ├── cluster_plot.png
+│   └── final_plot.png
+├── 220141.ipynb
+└── README.md
+```
+
+
 ## Dataset
 
 - **Standard Dataset:** Mall Customers Dataset (200 records) — Age, Annual Income (k$), Spending Score (1-100)
